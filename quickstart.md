@@ -45,7 +45,7 @@ ShredOS supports **Ventoy** out of the box. Copy the `.img` file directly onto y
 | **`ALT + F1`** | Primary **nwipe** erasure interface |
 | **`ALT + F2`** | Root shell (`smartctl`, `hdparm`, `nvme-cli`, `lsblk`, `dmesg`) |
 | **`ALT + F3`** | System and kernel log output |
-| **`ALT + F4`** | Additional root shell |
+| **`ALT + F4`** | **`SmartDMT`** - Smart monitoring terminal |
 | **`ALT + F5`** | **`shredos_hexviewer`** — interactive raw hexadecimal & ASCII sector inspector |
 
 ---
