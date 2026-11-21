@@ -1,0 +1,45 @@
+# --- Site Identity & SEO ---
+title: ShredOS
+author: PartialVolume
+url: "https://shredos.com"
+baseurl: ""
+
+# --- Theme (Remote keeps the repo clean for PRs) ---
+remote_theme: daattali/beautiful-jekyll@6.0.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# --- Navigation Bar ---
+navbar-links:
+  Home: "/"
+  Quick Start: "quickstart"
+  FAQ & Hardware: "faq"
+  Official GitHub: "https://github.com/PartialVolume/shredos.x86_64"
+  Releases (Download): "https://github.com/PartialVolume/shredos.x86_64/releases"
+
+# --- Branding & Colors ---
+# Uncomment once you place logo and screenshot PNGs in assets/img/
+# avatar: "/assets/img/shredos-logo.png"
+round-avatar: false
+navbar-col: "#1b1f23"
+navbar-text-col: "#ffffff"
+navbar-border-col: "#2ea44f"
+page-col: "#ffffff"
+text-col: "#24292e"
+link-col: "#0366d6"
+hover-col: "#005cc5"
+footer-col: "#f6f8fa"
+footer-text-col: "#586069"
+
+# --- Community Contributions ---
+edit_page_button: true
+github_username: PartialVolume
+
+# --- Footer Social Links ---
+social-network-links:
+  github: PartialVolume/shredos.x86_64
+
+# --- Search Engine & Security ---
+keywords: "ShredOS, nwipe, DBAN alternative, secure disk wipe, bootable USB eraser, NVMe sanitize, ATA secure erase, data sanitization"
