@@ -1,8 +1,13 @@
 # --- Site Identity & SEO ---
 title: ShredOS
 author: PartialVolume
-url: "https://shredos.com"
-baseurl: ""
+# Use these when ready to go live with shredos.com
+#url: "https://shredos.com"
+#baseurl: ""
+
+# temporarily use this for testing before going live so theme shows correctly
+url: "https://partialvolume.github.io"
+baseurl: "/shredos_website"
 
 # --- Theme (Remote keeps the repo clean for PRs) ---
 remote_theme: daattali/beautiful-jekyll@6.0.1
