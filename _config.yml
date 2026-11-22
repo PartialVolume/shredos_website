@@ -28,9 +28,12 @@ navbar-links:
 # Uncomment once you place logo and screenshot PNGs in assets/img/
 title-img: "/assets/img/shredos-logo.png"
 round-avatar: false
-navbar-col: "#1b1f23"
-navbar-text-col: "#ffffff"
+navbar-col: "#e9ecef"
+#navbar-col: "#1b1f23"
+navbar-text-col: "#1b1f23"
+#navbar-text-col: "#ffffff"
 navbar-border-col: "#2ea44f"
+#navbar-border-col: "#2ea44f"
 page-col: "#ffffff"
 text-col: "#24292e"
 link-col: "#0366d6"
