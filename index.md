@@ -1,7 +1,7 @@
 ---
 layout: home
 title: ShredOS
-subtitle: Minimal, Open-Source Bootable Disc Wipe Linux Distribution for Secure Disk Erasure and Sanitation
+subtitle: Minimal, Open-Source Bootable Disc Wipe Linux Distribution for Secure Disk Erasure and Sanitization
 ---
 
 **ShredOS** is a lightweight, fast-booting Linux distribution built specifically to securely erase hard drives, SSDs, and NVMe storage devices. Designed as a modern, actively maintained successor to DBAN, ShredOS boots directly into **nwipe** in seconds from a USB flash drive or PXE network environment—supporting both legacy BIOS and modern UEFI systems.
