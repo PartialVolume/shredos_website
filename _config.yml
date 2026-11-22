@@ -26,7 +26,7 @@ navbar-links:
 
 # --- Branding & Colors ---
 # Uncomment once you place logo and screenshot PNGs in assets/img/
-# avatar: "/assets/img/shredos-logo.png"
+avatar: "/assets/img/shredos-logo.png"
 round-avatar: false
 navbar-col: "#1b1f23"
 navbar-text-col: "#ffffff"
