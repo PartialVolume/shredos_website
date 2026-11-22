@@ -18,10 +18,10 @@ subtitle: Minimal, Open-Source Bootable Disc Wipe Linux Distribution for Secure 
 | Feature | Details |
 | :--- | :--- |
 | **Wipe Engine** | Boots directly into **nwipe** with an interactive ncurses interface or fully unattended `nwipe.conf` automation. |
-| **Erasure Standards** | DoD 5220.22-M, Gutmann, PRNG Stream, Random, Zero Fill, Verify Only, plus **Hardware-Native Sanitize** (ATA Secure Erase & NVMe Block/Crypto Erase). |
+| **Erasure Standards** | DoD 5220.22-M 7 pass & 3 pass, HMG IS5 Enhanced, Gutmann, PRNG Stream, Schneier 7-pass, RCMP TSSIT OPS-II, BMB21-2019, Zero Fill, Verify Ones, Verify Zeros, plus **Hardware-Native Sanitize** (ATA Secure Erase & NVMe Block/Crypto Erase). |
 | **Broad Hardware Support** | Full support for NVMe, SATA, PATA/IDE, SAS, SCSI, USB enclosures, and enterprise HBAs / Intel VMD controllers. |
-| **Audit-Ready Certificates** | Automatically writes detailed PDF erasure certificates (with speed and temperature graphs) and JSON/text logs back to the boot USB drive. |
-| **Built-In Diagnostics** | Multi-console tools (`ALT+F1` to `ALT+F5`) including raw hex disk inspection (`shredos_hexviewer`), `smartctl`, and `hdparm` HPA/DCO checks. |
+| **Audit-Ready Certificates** | Automatically writes detailed PDF erasure certificates (with speed and temperature graphs) and JSON/text logs back to the boot USB drive by default or uploaded using ssh/ftp/tftp/http. |
+| **Built-In Diagnostics** | Multi-console tools (`ALT+F1` to `ALT+F5`) including raw hex disk inspection (`shredos_hexviewer`) ALT+F5, SmartDMT smart data viewer (ALT+F4), `smartctl`, `hdparm` HPA/DCO checks, `OpenSeaChest`, `SG3_Utils`, `nvme_cli` |
 | **100% Free & Open Source** | Licensed under GPLv2. No ads, no telemetry, no nagware, and no artificial drive size limits. |
 
 ---
