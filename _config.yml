@@ -21,6 +21,8 @@ plugins:
 navbar-links:
   Home: "/"
   Quick Start: "quickstart"
+  User Guide:
+    - Drive Selection: "drive-selection"
   FAQ & Hardware: "faq"
   Official GitHub: "https://github.com/PartialVolume/shredos.x86_64"
   Releases (Download): "https://github.com/PartialVolume/shredos.x86_64/releases"
