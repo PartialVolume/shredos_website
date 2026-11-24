@@ -2,7 +2,7 @@
 layout: page
 title: Quick Start Guide
 subtitle: Creating a Bootable ShredOS USB Drive & Using Built-In Tools
-head_title: How to Download & Install ShredOS Bootable Disk Wipe USB
+seo_title: How to Download & Install ShredOS Bootable Disk Wipe USB
 ---
 
 ### 1. Choose the Right Image
