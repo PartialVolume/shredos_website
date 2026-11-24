@@ -11,7 +11,7 @@ Download the official release image from [GitHub Releases](https://github.com/Pa
 
 * **`x86_64` (64-bit):** Recommended for virtually all PCs, laptops, and servers manufactured since 2006 (supports both UEFI and Legacy BIOS).
 * **`i686` (32-bit):** For legacy 32-bit CPUs and older BIOS-only hardware.
-* **`Lite versions:** will boot on a system with only 512MB CPU RAM. 
+* **`Lite` versions:** will boot on a system with only 512MB CPU RAM. 
 
 ---
 
@@ -20,7 +20,7 @@ Download the official release image from [GitHub Releases](https://github.com/Pa
 #### Linux (`dd`)
 Identify your USB device with `lsblk` (e.g., `/dev/sdX`) and write the image directly:
 
-```bash
+```
 sudo dd status=progress if=shredos-*.img of=/dev/sdX
 ```
 
