@@ -4,8 +4,8 @@ title: FAQ & Hardware Compatibility
 subtitle: Common Questions About NVMe, SSDs, RAID Controllers, and Erasure Verification
 ---
 
-### Is `shredos.net` affiliated with ShredOS?
-**No.** `shredos.net` is an unofficial third-party site that scrapes release notes and serves advertisements. The only official ShredOS resources are **`https://shredos.com`** and **`https://github.com/PartialVolume/shredos.x86_64`**.
+### Is `shredos [dot] net` affiliated with ShredOS?
+**No.** `shredos [dot] net` is an unofficial third-party site that scrapes release notes and serves advertisements. The only official ShredOS resources are **`https://shredos.com`** and **`https://github.com/PartialVolume/shredos.x86_64`**.
 
 ---
 
