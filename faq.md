@@ -33,3 +33,8 @@ You can also run a software pass (such as Zero Fill or PRNG Stream) or inspect r
 
 ### Can I boot ShredOS over the network (PXE)?
 Yes. ShredOS runs entirely in RAM from a single `bzImage` kernel with an embedded initramfs. Extract `bzImage` from the `.img` boot partition and serve it via **iPXE**, **PXELINUX**, or **netboot.xyz**—no NFS or HTTP root filesystem mount is required.
+
+---
+
+### I accidently selected my the ShredOS flash drive I booted from and then wiped it! How to I tell ShredOS to not list my ShredOS flash drive so it can't be wiped accidently.
+On your ShredOS flash drive create an empty file `/etc/shredos/shredos_exclude_disc` Then reboot ShredOS. ShredOS will detect this file which it associates with the USB Flash Drive and then knows not to enumerate the drive so it doesn't appear in the drive list.
