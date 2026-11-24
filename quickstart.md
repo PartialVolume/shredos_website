@@ -9,7 +9,7 @@ seo_title: How to Download & Install ShredOS Bootable Disk Wipe USB
 
 Download the official release image from [GitHub Releases](https://github.com/PartialVolume/shredos.x86_64/releases) and verify its `SHA256` checksum:
 
-* **`x86_64` (64-bit):** Recommended for virtually all PCs, laptops, and servers manufactured since 2006 (supports both UEFI and Legacy BIOS).
+* **`x86_64` (64-bit):** Recommended for virtually all PCs, laptops, and servers manufactured since 2006 with a minimum of 2-3GB CPU RAM (supports both UEFI and Legacy BIOS).
 * **`i686` (32-bit):** For legacy 32-bit CPUs and older BIOS-only hardware.
 * **`Lite` versions:** will boot on a system with only 512MB CPU RAM. 
 
@@ -30,7 +30,7 @@ sudo dd status=progress if=shredos-*.img of=/dev/sdX
 3. Select your target USB flash drive and click **Start / Flash**.
 
 #### Ventoy (Multi-Boot USB)
-ShredOS supports **Ventoy** out of the box. Copy the `.img` or `.iso` file directly onto your Ventoy data partition—no extraction or reflashing required. As with flashed versions of .iso and .img files, the PDF files and logs are saved to the root `/` of the Ventoy Flash drive.
+ShredOS supports **Ventoy** out of the box. Copy the `.img` or `.iso` file directly onto your Ventoy flash drive. As with flashed versions of .iso and .img files, the PDF files and logs are saved to the root `/` of the Ventoy Flash drive.
 
 ---
 
