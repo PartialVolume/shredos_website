@@ -83,7 +83,7 @@ Use the following keyboard shortcuts from the main drive selection screen to con
 * **`r` (Rounds):** Prompts for the number of consecutive times the selected wipe method should be repeated on each drive.
 * **`b` (Blanking):** Toggles the final zero-fill (`0x00`) blanking pass `ON` or `OFF` after the main erasure rounds finish.
 * **`d` (Direction):** Toggles the wipe direction between **Forward** (start of disk to end) and **Reverse** (end of disk to start).
-* **`e` (Secure Erase):** Opens the hardware-native sanitization menu (ATA Secure Erase / Enhanced Secure Erase or NVMe Sanitize) for the highlighted drive, if supported.
+* **`e` (Secure Erase):** Opens the hardware-native sanitization menu. SATA SSD and NVMe Sanitize for the highlighted drive, if supported. Older NVMe or SSDs may not not support the modern Sanitize feature. nwipe does not support the older ATA secure erase or enhanced secure erase found on early SSDs. To initiate a secure erase on old SSDs assuming they don't support the modern Sanitise erasure you would need to use something like hdparm.
 * **`t` (Topology):** Toggles the drive list view between flat device listing and physical bus/controller topology grouping.
 * **`Space` (Select):** Toggles the wipe selection state (`[wipe]` or `[    ]`) for the currently highlighted drive.
 * **`Ctrl+A` (All):** Selects all available (unlocked) drives in the list for erasure at once.
