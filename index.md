@@ -35,6 +35,22 @@ seo_title: ShredOS Official Free Disk Wipe & Data Erasure Software
 
 ---
 
+### Frequently Asked Questions
+
+**Is ShredOS completely free and open-source?**
+Yes. ShredOS and `nwipe` are 100% free and open-source software released under the GPLv2 license. There are no commercial paywalls, drive capacity restrictions, or feature locks.
+
+**How is ShredOS different from DBAN?**
+DBAN has not been updated since 2015 and lacks support for modern UEFI systems, NVMe SSDs, USB 3.x controllers, and hardware-level sanitization. ShredOS is actively maintained with modern Linux kernels, full UEFI boot support, native NVMe/ATA Sanitize commands, and automated PDF erasure certificates.
+
+**Can ShredOS securely wipe SSDs and NVMe drives?**
+Yes. Alongside multi-pass and single-pass software overwrites, `nwipe` supports firmware-level **ATA Secure Erase / Enhanced Secure Erase** for SATA SSDs and **NVMe Sanitize (Block Erase and Crypto Erase)** for NVMe drives, clearing over-provisioned flash blocks that software writes cannot reach.
+
+**Does ShredOS support UEFI and Secure Boot?**
+ShredOS supports native **UEFI** booting (on 64-bit `x86_64` builds) as well as legacy BIOS/CSM mode. However, the ShredOS bootloader is not signed for **Secure Boot**, so Secure Boot must be disabled in your system's UEFI/BIOS firmware settings before booting from the ShredOS USB drive.
+
+---
+
 ### Contribute to This Site
 
 Notice outdated documentation or want to add hardware compatibility notes? Every page on `shredos.com` is open source—click **"Edit this page"** below to submit a pull request on GitHub.
