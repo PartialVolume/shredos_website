@@ -22,6 +22,7 @@ navbar-links:
   Home: "/"
   Quick Start: "quickstart"
   User Guide:
+    - Why Wipe a Disc: how-to-wipe-your-pc-or-laptop-disc
     - Drive Selection: "drive-selection"
   FAQ & Hardware: "faq"
   Official GitHub: "https://github.com/PartialVolume/shredos.x86_64"
@@ -41,6 +42,8 @@ link-col: "#0366d6"
 hover-col: "#005cc5"
 footer-col: "#f6f8fa"
 footer-text-col: "#586069"
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # --- Community Contributions ---
 edit_page_button: true
