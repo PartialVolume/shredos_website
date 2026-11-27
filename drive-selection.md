@@ -15,7 +15,7 @@ Enabling a specific drive is achieved by using the <kbd>↑</kbd> and <kbd>↓</
 
 Drives currently mounted by the operating system are flagged as <span style="background-color: #ffffff; color: #e01b24; font-family: monospace; font-weight: bold; padding: 1px 5px; border: 1px solid #cccccc; border-radius: 2px;">[IN USE]</span> and cannot be wiped until unmounted. This is to avoid accidently overwriting a mounted drive when nwipe is being run on a linux distribution. You normally won't see this warning as ShredOS operates in RAM as a disc less system and no drives are mounted at boot. If you are using nwipe on a linux distro you can overide this prevention measure by using the --force option when executing nwipe. e.g. `sudo ./nwipe --force`
 
-![nwipe drive selection screen in ShredOS](/assets/img/nwipe-drive-selection.png)
+![nwipe drive selection screen in ShredOS](/assets/img/nwipe-drive-selection.png){: .mx-auto.d-block }
 
 ### 2. Drive Selection Panel Descriptions
 

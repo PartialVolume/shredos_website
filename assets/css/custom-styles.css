@@ -1,0 +1,8 @@
+/* Widen content column on layout: page */
+.container-md .row > .col-xl-8.offset-xl-2,
+.container-md .row > .col-lg-10.offset-lg-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0;
+}
+
