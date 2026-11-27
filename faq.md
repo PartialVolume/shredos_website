@@ -15,7 +15,7 @@ Modern SSDs and NVMe drives use wear-leveling and over-provisioning, meaning sta
 * **NVMe Sanitize / Format NVM:** Block Erase and Cryptographic Erase.
 * **ATA Sanitize / Enhanced Secure Erase:** Controller-level flash block erase and cryptographic key destruction.
 
-You can also run a software pass (such as Zero Fill or PRNG Stream) or inspect raw sectors afterward using **`shredos_hexviewer`** on `ALT + F5`.
+You can also run a software pass (such as Zero Fill or PRNG Stream) or inspect raw sectors afterward using [**`shredos_hexviewer`**](https://github.com/PartialVolume/shredos_hexviewer/blob/main/README.md) on `ALT + F5`.
 
 ---
 
